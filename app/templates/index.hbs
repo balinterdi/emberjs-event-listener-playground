@@ -1,0 +1,6 @@
+{{#if this.showMouseTarget}}
+  <MouseTarget />
+  <button type="button" {{on "click" this.toggleShow}}>Hide MouseTarget</button>
+{{else}}
+  <button type="button" {{on "click" this.toggleShow}}>Show MouseTarget</button>
+{{/if}}
